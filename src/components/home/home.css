@@ -1,0 +1,43 @@
+.Home{
+    background:coral;
+    display: flex;
+    flex-wrap: wrap;
+}
+.all_info{
+    display: flex;
+    flex-direction: column;
+}
+.all_info div{
+     margin:3px;
+}
+.all_info button{
+    margin:5px;
+}
+.card {
+    color:#E6E6E6;
+    margin:40px;
+    padding: 25px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color:black;
+}
+.titlepage{
+    text-align: center;
+    background-color: black;
+    color:aqua;
+    
+}
+.titlepage h1{
+    padding: 20px 0;
+}
+.all_image{
+    width:200px;
+    height: 300px;
+    margin-bottom:20px; 
+   
+}
+
+.all_official{
+    text-decoration: none;
+    color:black;
+}
