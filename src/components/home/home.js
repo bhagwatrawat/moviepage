@@ -14,7 +14,7 @@ export default function Home({data}){
             
             <div>Rating : {item.show.rating.average}</div>
             <button ><a href={item.show.officialSite} className="all_official">Official Site</a></button>
-            <button ><NavLink style={{ textDecoration: 'none',color:'black' }} to={"summary/"+item.score} >Summary</NavLink></button>
+            <button ><NavLink style={{ textDecoration: 'none',color:'black' }} to={"moviepage/summary/"+item.score} >Summary</NavLink></button>
             </div>
             
             </div>)

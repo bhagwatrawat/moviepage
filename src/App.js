@@ -22,7 +22,7 @@ function App() {
       <Switch>
         <Route path="/moviepage" exact component={()=>{return (<Home data={data}/>)}}/>
        
-        <Route path="/summary/:id" component={()=>{return (<Summary data={data}/>)}}/>
+        <Route path="/moviepage/summary/:id" component={()=>{return (<Summary data={data}/>)}}/>
           
       </Switch>
     </Router>
