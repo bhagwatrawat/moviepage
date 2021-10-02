@@ -20,7 +20,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/" exact component={()=>{return (<Home data={data}/>)}}/>
+        <Route path="/moviepage" exact component={()=>{return (<Home data={data}/>)}}/>
        
         <Route path="/summary/:id" component={()=>{return (<Summary data={data}/>)}}/>
           
